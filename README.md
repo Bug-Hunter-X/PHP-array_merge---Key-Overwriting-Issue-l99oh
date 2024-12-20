@@ -1,0 +1,3 @@
+# PHP array_merge() Unexpected Key Behavior
+
+This repository demonstrates a subtle yet common issue with PHP's `array_merge()` function when dealing with associative arrays.  The function overwrites keys instead of appending values, which can lead to unexpected and hard-to-debug errors.  The `bug.php` file showcases this problem, while `bugSolution.php` provides alternative methods to achieve the desired behavior.
